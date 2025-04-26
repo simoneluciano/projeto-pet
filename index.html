@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banho e Tosa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-theme="light">
+  <header>
+    <nav class="navbar-expand-md navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/BANHO & TOSA A Domicílio Da Tia Mi (2).png" alt="Logo do banho e tossa"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="img/BANHO & TOSA A Domicílio Da Tia Mi (1).png" alt="Logo da cafeteria Serenatto"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" role="switch" id="modo-noturno">
+                  <label class="form-check-label" for="modo-noturno">Modo noturno</label>
+                </div></a>
+              </li>
+            </ul>
+              
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="baners baneer-1 d-flex flex-column justify-content-center text-center">
+      <div class="baners-titulo bg-body-secondary py-5">
+       
+        <h2 class="fw-bold">Seu pet limpo e feliz sem sair de casa</h2>
+        <p>Com o atendimento domiciliar da Tia Mi, você oferece ao seu pet os melhores cuidados, com toda a comodidade que ele merece.</p>
+
+      </div>
+       
+      <div class="banners-imagem d-flex justify-content-center">
+        
+      </div>
+    </section>
+    <section class="py-5" >
+      <h2 class="text-center fw-bold pb-1" id="sobre">Nossos serviços</h2>
+
+      <div class="container d-flex justify-content-around flex-wrap">
+
+        <div class="card m-4" style="width: 20rem;">
+          <img src="img/cachorro enrolado na toalha.jpg" class="cachorro-enrolado na toalha"
+            alt="Cachorro enrolado em uma toalha de banho">
+          <div class="card-body">
+            <h5 class="card-title py-2 fw-bold">Banho & Tosa</h5>
+            <p class="card-text">Banho com produtos específicos, escovação, tosa higiênica e tosa padrão da raça. Tudo com carinho e cuidado.</p>
+  
+            <a href="#" class="btn botao-padrao w-100 fw-bold" data-bs-toggle="offcanvas" data-bs-target="#canvas-1" aria-controls="offcanvasRight">Quero detalhes</a>
+          </div>
+        </div>
+
+        <div class="card m-4" style="width: 20rem;">
+          <img src="img/dentes-cachorro.png" class="card-img-top" alt="Cachorro com uma escova de dentes">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Cuidados Especiais</h5>
+            <p class="card-text">Corte de unhas, limpeza de ouvidos, escovação dental e hidratação de pelagem para manter seu pet saudável.</p>
+            <a href="#" class="btn botao-padrao w-100 fw-bold mt-3"data-bs-toggle="offcanvas" data-bs-target="#canvas-2" aria-controls="offcanvasRight">Quero detalhes</a>
+          </div>
+        </div>
+
+        <div class="card m-4" style="width: 20rem;">
+          <img src="img/image-de-banho-domiciliar.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Atendimento Domiciliar</h5>
+            <p class="card-text">Levamos o cuidado até seu lar. Menos estresse para seu pet e mais conforto para você. Agende já!</p>
+            <a href="#" class="btn botao-padrao w-100 fw-bold mt-3" data-bs-toggle="offcanvas" data-bs-target="#canvas-3" aria-controls="offcanvasRight">Quero detalhes</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banners banner-2 d-flex flex-column justify-content-center">
+      <div class="banners-titulo bg-body-secondary text-center py-5">
+        <h2 class="fw-bold">Comodidade, carinho e cuidado no seu lar</h2>
+        <p>Atendimento totalmente domiciliar, respeitando o espaço e a rotina do seu pet. A Tia Mi leva conforto, higiene e muito amor até você, sem estresse e com toda a segurança.</p>
+      </div>
+    </section>
+   
+      <section class="py-5">
+
+        <h2 class="fw-bold text-center pb-1">Nossos Aumigos</h2>
+
+        <div class="row mx-0">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-1"
+                    style="width: 18rem;">
+                    <img src="img/Imagem do WhatsApp de 2025-04-26 à(s) 17.04.19_03cf4c87.png" class="cachorro deitado no chao" alt="Café preto.">
+                    <div class="card-body">
+                        <h3 class="card-text text-center fw-bold"></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-2"
+                    style="width: 18rem;">
+                    <img src="img/shitsul (3).png" class="card-img-top" alt="foto de uma shitsul.">
+                    <div class="card-body">
+                        <h3 class="card-text fw-bold text-center"></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-0 mx-auto btn" style="width: 18rem;">
+                    <img src="img/spits.png" class="foto de um spits" alt="Vitaminas variadas">
+                    <div class="card-body">
+                        <h3 class="card-text text-center fw-bold text-nowrap"></h3>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+
+        
+        </div>
+
+      </section>
+
+    </section>
+
+    <section class="banners banner-3">
+    </section>
+
+  <!--Seção Formulário-->
+    <section class="py-4 container">
+      <div class="row">
+        <div class="col-10 col-xl-8 mx-auto">
+        </div>
+      </div>
+      <div class="border border-2 rounded p-3">
+        <h3 class="fw-bold p-3">Entre em contato!</h3>
+        <form id="contato">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingNome" placeholder="Nome">
+          <label for="floatingNome">Nome</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+          <label for="floatingEmail">Email</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="number" class="form-control" id="floatingTelefone" placeholder="Telefone">
+          <label for="floatingTelefone">Telefone</label>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea class="form-control" placeholder="Deixe sua mensagem aqui" id="floatingMensagem" style="height: 100px"></textarea>
+          <label for="floatingMensagem">Mensagem</label>
+        </div>
+        
+        <select class="form-select mb-3" aria-label="Default select example">
+          <option selected>Preferência de contato:</option>
+          <option value="1">WhatsApp</option>
+          <option value="2">Email</option>
+          <option value="3">Ligação</option>
+        </select>
+        <label for="nivel-satisfacao" class="form-label">Nível de satisfação</label>
+        <input type="range" class="form-range input-range" id="nivel-satisfacao">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+          <label class="form-check-label" for="checkDefault">
+            Deseja receber novidades por email?
+          </label>
+        </div>
+        <button type="button" class="btn botao-padrao w-100 p-3 fw-bold mt-3 py-3">Enviar</button>
+      
+      </form>
+      </div>
+    </section>
+    <footer class="text-center">
+      <section class="container p-4 pb-0 mb-4 fw-bold ">
+        <a class="btn" href="#!"><i class="bi bi-whatsapp"></i></a>
+        <a class="btn" href="#!"><i class="bi bi-instagram"></i></a>
+        <a class="btn" href="#!"><i class="bi bi-twitter"></i></a>
+      </section>
+      <div class="p-3 fw-bold " >
+          2025 <i class="bi bi-c-circle"></i> Desenvolvido por Simone | Projeto fictício sem fins comerciais.
+      </div>
+  </footer>
+  </main>
+  <!--canvas 1-->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Banho & Tosa</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Banho
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Utilizamos produtos de alta qualidade para deixar seu pet limpo, cheiroso e com o pelo macio. Banhos com água morna e todo o cuidado que ele merece!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Tosa
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Tosa higiênica, tosa de raça ou personalizada. Sempre com carinho e respeito ao seu pet. Usamos equipamentos esterilizados e ambiente seguro.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Hidratação
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Tratamentos especiais para revitalizar a pelagem, trazendo brilho, maciez e saúde. Ideal para pets com pelos ressecados ou danificados.
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+
+    <!-- Canvas 2 -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-2" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Cuidados Extras</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+            data-bs-target="#accordionEventos" aria-expanded="false" aria-controls="collapseOne">
+            Corte de unhas
+          </button>
+        </h2>
+        <div id="accordionEventos" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Realizamos o corte de unhas com todo cuidado, evitando machucar e garantindo mais conforto ao seu pet.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+            data-bs-target="#accordionCatering" aria-expanded="false" aria-controls="collapseOne">
+            Limpeza de Ouvidos
+          </button>
+        </h2>
+        <div id="accordionCatering" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Higienização delicada dos ouvidos para prevenir infecções e manter a saúde auditiva do seu pet.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+  <!-- Canvas 3 -->
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-3" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Atendimento</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+              data-bs-target="#accordionEventos" aria-expanded="false" aria-controls="collapseOne">
+              Atendimento Domiciliar
+            </button>
+          </h2>
+          <div id="accordionEventos" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Vamos até sua casa! Com conforto e praticidade, realizamos todos os serviços no local, evitando estresse ao pet.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+              data-bs-target="#accordionCatering" aria-expanded="false" aria-controls="collapseOne">
+             Agendamento
+            </button>
+          </h2>
+          <div id="accordionCatering" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Entre em contato pelo WhatsApp para agendar o horário ideal. Atendimento com hora marcada e pontualidade.
+       
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+ 
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
+    

@@ -1,0 +1,116 @@
+body {
+    --bege: #FFF7F0;
+    --marrom-escuro: #816D4F;
+    --marrom-claro: #B29463;
+    font-family: 'Barlow', sans-serif;
+    height: 4000px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  input[type=checkbox] {
+    border: 2px solid var(--marrom-claro);
+    box-shadow: none;
+  }
+  
+  input[type=checkbox]:checked,
+  input[type="checkbox"]:focus {
+    background-color: var(--marrom-claro);
+    border-color: var(--marrom-claro);
+    box-shadow: none;
+    outline: none;
+  }
+  .baneer-1 {
+    background-image: url(img/patadecachorro.png);
+  }
+  .baners {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .baners-titulo {
+    --bs-bg-opacity: .2; /*Deixa a imagem translucida*/
+  }
+  .banners {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .banners-titulo {
+    --bs-bg-opacity: .2;
+  }
+  
+  .banner-2{
+    background-image: url(img/patadecachorro.png);
+  }
+  
+  .banner-3{
+    background-image: url(img/patadecachorro.png);
+  }
+  .botao-padrao {
+    background-color:#E6B8C4; 
+    color: black;
+    border-color: #D4AF37;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+   
+  }
+  
+  .botao-padrao:hover {
+    background-color: #A61B4E; 
+    transform: scale(1.05);
+  }
+  .input-range::-webkit-slider-thumb {
+    background-color: var(--marrom-claro);
+  }
+  footer {
+    background-color: var(--marrom-escuro);
+  }
+  [data-bs-theme="dark"] {
+    color: white;
+    .nav-link, .card-body, .offcanvas, .accordion, .btn{
+      --bs-nav-link-color:white;
+      --bs-card-color: white;
+      --bs-offcanvas-color: white;
+      --bs-body-color: white;
+      --bs-body-color: white;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+img {
+  
+  
+    max-width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+   
+
+  
+  
+        
+}
+.bg-body-tertiary {
+    background-color:#C9E7F2 !important; 
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4); /* brilho dourado */
+  border: 2px solid #D4AF37; /* borda dourada */
+}
+
+  
